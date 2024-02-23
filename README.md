@@ -28,6 +28,7 @@ easily search through videos using natural language queries
 ## Features
 
 -   TODO
+-   Complete actual functionality for searching through videos :)
 
 ## Credits
 
