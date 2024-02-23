@@ -53,10 +53,12 @@ jobs:
             - name: Declare variables for convenient use
               id: variables_step
               run: |
-                  echo "repo_owner=${{ github.repository_owner }}" >> $GITHUB_ENV
-                  echo "repo_name=${{ github.repository }}" >> $GITHUB_ENV
-                  echo "package_name=`poetry version | awk '{print $1}'`" >> $GITHUB_ENV
-                  echo "package_version=`poetry version --short`" >> $GITHUB_ENV
+                  {
+                      echo "repo_owner=${{ github.repository_owner }}<<EOF"
+                      echo "repo_name=${{ github.repository }}<<EOF"
+                      echo "package_name=`poetry version | awk '{print $1}'`<<EOF"
+                      echo "package_version=`poetry version --short`<<EOF"
+                  } >> $GITHUB_ENV
               shell: bash
 
             - name: publish documentation
