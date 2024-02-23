@@ -66,7 +66,7 @@ jobs:
                       echo "repo_name=${{ github.repository }}<<EOF"
                       echo "package_name=`poetry version | awk '{print $1}'`<<EOF"
                       echo "package_version=`poetry version --short`<<EOF"
-                  } >> $GITHUB_ENV
+                  } >> "$GITHUB_ENV"
               shell: bash
 
             - name: test with tox
