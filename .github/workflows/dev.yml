@@ -39,6 +39,7 @@ jobs:
 
             - name: build documentation
               run: |
+                  poetry lock
                   poetry install -E dev
                   poetry run mkdocs build
                   git config --global user.name Docs deploy
