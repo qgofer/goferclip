@@ -61,7 +61,6 @@ jobs:
             - name: Declare variables for convenient use
               id: variables_step
               run: |
-                  EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
                   echo "repo_owner=${{ github.repository_owner }}<<$EOF" >> "$GITHUB_OUTPUT"
                   echo "repo_name=${{ github.repository }}<<$EOF" >> "$GITHUB_OUTPUT"
                   echo "package_name=`poetry version | awk '{print $1}'`<<$EOF" >> "$GITHUB_OUTPUT"
