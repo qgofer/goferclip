@@ -57,7 +57,6 @@ jobs:
                   echo "repo_name=${{ github.repository }}" >> "$GITHUB_OUTPUT"
                   echo "package_name=`poetry version | awk '{print $1}'`" >> "$GITHUB_OUTPUT"
                   echo "package_version=`poetry version --short`">> "$GITHUB_OUTPUT"
-              shell: bash
 
             - name: publish documentation
               run: |
