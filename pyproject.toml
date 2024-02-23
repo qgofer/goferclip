@@ -2,7 +2,7 @@
 [tool.poetry]
 name = "clip_gofer"
 version = "0.1.0"
-homepage = "https://github.com/qgofer/clip_gofer"
+homepage = "https://github.com/qgofer/clip-gofer"
 description = "easily search through videos using natural language queries."
 authors = ["Frank Acquaye <acquayefrank@gmail.com>"]
 readme = "README.md"

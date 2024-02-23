@@ -28,7 +28,7 @@ git clone git://github.com/qgofer/clip_gofer
 Or download the [tarball][]:
 
 ```console
-curl -OJL https://github.com/qgofer/clip_gofer/tarball/master
+curl -OJL https://github.com/qgofer/clip-gofer/tarball/master
 ```
 
 Once you have a copy of the source, you can install it with:

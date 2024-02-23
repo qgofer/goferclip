@@ -6,8 +6,8 @@
         alt = "Release Status">
 </a>
 
-<a href="https://github.com/qgofer/clip_gofer/actions">
-    <img src="https://github.com/qgofer/clip_gofer/actions/workflows/main.yml/badge.svg?branch=release" alt="CI Status">
+<a href="https://github.com/qgofer/clip-gofer/actions">
+    <img src="https://github.com/qgofer/clip-gofer/actions/workflows/main.yml/badge.svg?branch=release" alt="CI Status">
 </a>
 
 <a href="https://qgofer.github.io/clip_gofer/">
