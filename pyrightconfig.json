@@ -10,7 +10,7 @@
     ".vscode",
     "docs",
     "**/__pycache__",
-    "acquayefrank_clip_gofer.egg-info"
+    "qgofer_clip_gofer.egg-info"
   ],
 
   "ignore": [

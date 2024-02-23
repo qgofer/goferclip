@@ -6,7 +6,7 @@
 
 # Create repo and push code to github
 gh repo create clip_gofer --public
-git remote add origin git@github.com:acquayefrank/clip_gofer.git
+git remote add origin git@github.com:qgofer/clip_gofer.git
 git add .
 pre-commit run --all-files
 git add .

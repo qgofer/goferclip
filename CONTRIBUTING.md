@@ -9,13 +9,13 @@ You can contribute in many ways:
 
 ### Report Bugs
 
-Report bugs at https://github.com/acquayefrank/clip_gofer/issues.
+Report bugs at https://github.com/qgofer/clip_gofer/issues.
 
 If you are reporting a bug, please include:
 
-* Your operating system name and version.
-* Any details about your local setup that might be helpful in troubleshooting.
-* Detailed steps to reproduce the bug.
+-   Your operating system name and version.
+-   Any details about your local setup that might be helpful in troubleshooting.
+-   Detailed steps to reproduce the bug.
 
 ### Fix Bugs
 
@@ -35,14 +35,14 @@ articles, and such.
 
 ### Submit Feedback
 
-The best way to send feedback is to file an issue at https://github.com/acquayefrank/clip_gofer/issues.
+The best way to send feedback is to file an issue at https://github.com/qgofer/clip_gofer/issues.
 
 If you are proposing a feature:
 
-* Explain in detail how it would work.
-* Keep the scope as narrow as possible, to make it easier to implement.
-* Remember that this is a volunteer-driven project, and that contributions
-  are welcome :)
+-   Explain in detail how it would work.
+-   Keep the scope as narrow as possible, to make it easier to implement.
+-   Remember that this is a volunteer-driven project, and that contributions
+    are welcome :)
 
 ## Get Started!
 
@@ -68,7 +68,7 @@ Ready to contribute? Here's how to set up `clip_gofer` for local development.
     $ git checkout -b name-of-your-bugfix-or-feature
 ```
 
-   Now you can make your changes locally.
+Now you can make your changes locally.
 
 6. When you're done making changes, check that your changes pass the
    tests, including testing other Python versions, with tox:
@@ -96,11 +96,13 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.md.
 3. The pull request should work for Python 3.6, 3.7, 3.8, 3.9 and for PyPy. Check
-   https://github.com/acquayefrank/clip_gofer/actions
+   https://github.com/qgofer/clip_gofer/actions
    and make sure that the tests pass for all supported Python versions.
 
 ## Tips```
+
     $ pytest tests.test_clip_gofer
+
 ```To run a subset of tests.
 
 
@@ -111,9 +113,12 @@ Make sure all your changes are committed (including an entry in HISTORY.md).
 Then run:
 
 ```
+
 $ poetry patch # possible: major / minor / patch
 $ git push
 $ git push --tags
+
 ```
 
 Github Actions will then deploy to PyPI if tests pass.
+```
